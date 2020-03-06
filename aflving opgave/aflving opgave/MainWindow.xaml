@@ -1,0 +1,43 @@
+﻿<Window x:Class="aflving_opgave.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:aflving_opgave"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Name="personlistgrid">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="39.2"/>
+            <RowDefinition Height="Auto" MinHeight="112"/>
+            <RowDefinition Height="0*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="80"/>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0" Grid.ColumnSpan="2" Margin="0,0,264.6,13.2">
+            <MenuItem Header="file">
+                <MenuItem Header="read" Click="MenuItem_Click"/>
+            </MenuItem>
+        </Menu>
+        <ListBox x:Name="listBox" Grid.RowSpan="6" Grid.Column="0" 
+                 ItemsSource="{Binding}" DisplayMemberPath="ListBoxToString" IsSynchronizedWithCurrentItem="True" Grid.ColumnSpan="2" Margin="0,39,0,0.4" HorizontalAlignment="Left" Width="265" SelectionChanged="listBox_SelectionChanged"/>
+        <Label Name="Name" Content="Name" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Grid.Column="1" Grid.Row="1" Height="50" Margin="87.2,32.8,87.6,29.2" Width="90"></Label>
+        <Label Name="Age" Content="Age" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Grid.Column="1" Grid.Row="3" Height="50" Margin="101.2,31.8,101.6,31.8" Width="62"></Label>
+        <Label Name="id" Content="Id" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Grid.Column="1" Grid.Row="4" Height="50" Margin="115.2,17.2,114.6,17.6" Width="35"></Label>
+        <Label Name="score" Content="Score" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Grid.Column="1" Grid.Row="5" Height="49" Margin="91.2,17.4,90.6,18.4" Width="83"></Label>
+        <Label Name="Nameinfo" Content="{Binding Path=Name}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Grid.Column="2" Grid.Row="1" ></Label>
+        <Label Name="Ageinfo" Content="{Binding Path=Age}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Grid.Column="2" Grid.Row="3" ></Label>
+        <Label Name="Idinfo" Content="{Binding Path=Id}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Grid.Column="2" Grid.Row="4" ></Label>
+        <Label Name="Scoreinfo" Content="{Binding Path=Score}" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="30" Grid.Column="2" Grid.Row="5"></Label>
+        <StatusBar Name="status" Grid.Row="6" Grid.ColumnSpan="3">
+            <Label Name="statusbarlabel"></Label>
+        </StatusBar>
+    </Grid>
+</Window>

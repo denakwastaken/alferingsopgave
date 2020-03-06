@@ -1,0 +1,14 @@
+C:\Users\Dennis\source\repos\aflving opgave\aflving opgave\obj\Debug\aflving opgave.csprojAssemblyReference.cache
+C:\Users\Dennis\source\repos\aflving opgave\aflving opgave\obj\Debug\MainWindow.g.cs
+C:\Users\Dennis\source\repos\aflving opgave\aflving opgave\obj\Debug\App.g.cs
+C:\Users\Dennis\source\repos\aflving opgave\aflving opgave\obj\Debug\aflving opgave_MarkupCompile.cache
+C:\Users\Dennis\source\repos\aflving opgave\aflving opgave\obj\Debug\aflving opgave_MarkupCompile.lref
+C:\Users\Dennis\source\repos\aflving opgave\aflving opgave\bin\Debug\aflving opgave.exe.config
+C:\Users\Dennis\source\repos\aflving opgave\aflving opgave\bin\Debug\aflving opgave.exe
+C:\Users\Dennis\source\repos\aflving opgave\aflving opgave\bin\Debug\aflving opgave.pdb
+C:\Users\Dennis\source\repos\aflving opgave\aflving opgave\obj\Debug\MainWindow.baml
+C:\Users\Dennis\source\repos\aflving opgave\aflving opgave\obj\Debug\aflving opgave.g.resources
+C:\Users\Dennis\source\repos\aflving opgave\aflving opgave\obj\Debug\aflving_opgave.Properties.Resources.resources
+C:\Users\Dennis\source\repos\aflving opgave\aflving opgave\obj\Debug\aflving opgave.csproj.GenerateResource.cache
+C:\Users\Dennis\source\repos\aflving opgave\aflving opgave\obj\Debug\aflving opgave.exe
+C:\Users\Dennis\source\repos\aflving opgave\aflving opgave\obj\Debug\aflving opgave.pdb
